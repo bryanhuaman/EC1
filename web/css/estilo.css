@@ -1,0 +1,188 @@
+body{
+/*background-color: #F3E4E4;*/
+background: url(../Imagenes/fondo-biblioteca.jpg);
+background-size: 100% 100%;
+background-attachment:fixed;
+
+/*
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100vw 100vh;*/
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/*header*/
+.encabe{
+background:rgb(22, 76, 164,0.99);
+/*background: #Df1c1c;*/
+overflow: hidden;
+width: 100%;
+margin-bottom: 20px;
+top: 0;
+left: 0;
+z-index: 100;
+
+position: fixed; /*par que no se mueva de la pagina el encabezado*/
+/*border-bottom: 2px solid #fffffa;*//*par crear un bode al header*/
+
+}
+
+
+
+.wrapper{
+width: 97%;
+max-width: 2000px;
+margin: auto;
+overflow: hidden;
+}
+
+
+
+.logo{
+	color: #F3E4E4;
+	font-family:Arial Black, Gadget, sans-serif;
+	/*font-family: sans-serif;*/
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 70px;
+	text-align: center;
+
+}
+/*header*/
+
+/*form*/
+.login{
+background: #fffffa;
+border: 1px solid #e1e1e1;
+border-radius: 4%;/*bordes redondos*/
+padding: 17px;
+width: 400px;/*ancho*/
+height: 600px;/*altura*/
+position: absolute;
+top: 50%;/*para centrar formulario*/
+left: 50%;/*para centrar formulario*/
+transform: translate(-50%,-50%);/*para centrar formulario*/
+
+box-sizing: border-box;
+
+
+
+}
+
+.login .logo .img-sesion{
+	width: 130px;
+	height: 150px;
+	left: calc(50% -50px);/*calcular para centrar*/
+
+
+}
+
+.login	.logo h3{
+	font-size: 35px;
+	color: black;
+	font-family: Arial;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.login label{
+	margin: 0;
+	padding: 0;
+	font-family:Arial;
+	font-weight: bold;
+	display: block;
+}
+
+.login input{
+	width: 95%;
+	margin-bottom:20px ;
+}
+
+.login input[type="text"],.login input[type="password"]{
+border: none;
+border-bottom: 1px solid #1d1d1d;
+background: transparent;
+outline: none;
+height: 35px;
+color: black;
+font-size: 16px;
+}
+
+.login input[type="button"]{
+border: none;
+outline: none;
+height: 40px;
+background: #1d1d1d;
+color: #fff;
+font-size: 18px;
+border-radius: 10px;
+cursor: pointer;
+}
+.login input[type="button"]:hover{
+    background: rgba(37,85,128,0.9);
+}
+
+.login a{
+	text-decoration: none;
+	font-family: Arial;
+	font-weight: 600;/*grosor de la letra*/
+	font-size: 14px;
+	color:rgb(1,101,191,3);
+}
+
+
+.login a:hover{
+	color: #C0C600;
+}
+
+
+
+
+
+/*responsive movil*/
+@media only screen and (min-width: 400px)and (max-width: 767px){
+
+.encabe{
+	height: 70px;
+}
+.logo{
+	font-size: 30px;
+	margin-left: 8px;
+	margin-top: -2px;
+}
+.login{
+	width: 90%;
+}
+}
+
+
+
+
+/*responsive escritorio*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- sirve para detectar anchura de navegador-->
+
+
+
+	<title>Login</title>
+	<script type="text/javascript" src="java.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="css/animaciones/aos.css">
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/icono_g.png">
+</head>
+<body>
+	<header class="encabe" data-aos="fade-down">
+		<div class="wrapper">
+			<div class="logo" data-aos="fade-left">	
+				Colegio Santa Maria Gorreti	
+
+			</div>
+		</div>
+	</header>
+	<form class="login" >
+		<div class="logo" >
+			<img class="img-sesion" src="Imagenes/inicio-sesion.png">
+			<h3 >Inicia sesion</h3>
+		</div>	
+
+		<div class="grupo_log">
+			<label>Ususario</label><br>
+			<input id="s" type="text" class="log" name="usuario" placeholder="Escribe tu usuario">
+		</div>
+		<div class="grupo_log">
+                    <label>Contrase&ntilde;a</label><br>
+			<input id="ss" type="password" class="log" name="contraseña" placeholder="Escribe tu contrase&ntilde;a">
+		</div>
+
+		<a href="#" >Registrate</a><br><br>
+
+		<input class="btn_ingresar" type="button" value="Ingresar" onclick="getData()" >
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+
+	<script type="text/javascript" src="js/animaciones/aos.js"></script>
+
+	<script type="text/javascript">
+
+		AOS.init({
+			offset:200,
+			duration:1000,
+		});
+	</script>
+
+
+</body>
+</html>
